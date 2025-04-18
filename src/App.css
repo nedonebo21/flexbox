@@ -2,9 +2,9 @@
   height: 100vh;
   display: flex;
 
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .myDiv {
@@ -21,6 +21,8 @@
 
 .mySpan {
   background-color: rgb(135, 250, 141);
+
+  flex-grow: 1;
 }
 
 .myImg {
