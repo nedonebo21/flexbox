@@ -2,9 +2,9 @@
   height: 100vh;
   display: flex;
 
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .myDiv {
@@ -15,6 +15,7 @@
 .myText {
   background-color: lightskyblue;
   max-width: 500px;
+  order: -1;
 }
 
 .mySpan {
@@ -23,6 +24,5 @@
 
 .myImg {
   height: 150px;
-
-  align-self: flex-end;
+  order: 2;
 }
