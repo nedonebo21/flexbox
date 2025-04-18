@@ -23,4 +23,6 @@
 
 .myImg {
   height: 150px;
+
+  align-self: flex-end;
 }
