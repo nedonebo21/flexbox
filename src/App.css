@@ -8,6 +8,10 @@
 
   flex-wrap: wrap;
   align-content: flex-start;
+
+  /*gap: 20px;*/
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
 .myDiv {
