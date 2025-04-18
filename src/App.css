@@ -11,42 +11,43 @@
   background-color: lightcoral;
 
   flex-basis: 300px;
+
+  flex-grow: 2;
 }
 
 .myText {
   background-color: lightskyblue;
   max-width: 500px;
-  order: -1;
+
+  flex-shrink: 5;
 }
 
 .mySpan {
   background-color: rgb(135, 250, 141);
-
   flex-grow: 1;
 }
 
 .myImg {
   height: 150px;
-  order: 2;
 }
 
-.wrapper{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+/*.wrapper{*/
+/*  height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*}*/
 
-header{
-  background-color: rgb(135, 250, 141);
+/*header{*/
+/*  background-color: rgb(135, 250, 141);*/
 
-  height: 100px;
-}
-main{
-  background-color: lightcoral;
-  flex-grow: 1;
-}
-footer{
-  background-color: lightskyblue;
+/*  height: 100px;*/
+/*}*/
+/*main{*/
+/*  background-color: lightcoral;*/
+/*  flex-grow: 1;*/
+/*}*/
+/*footer{*/
+/*  background-color: lightskyblue;*/
 
-  height: 50px;
-}
+/*  height: 50px;*/
+/*}*/
