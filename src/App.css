@@ -1,3 +1,7 @@
+.flex-container{
+  display: flex;
+}
+
 .myDiv {
   background-color: lightcoral;
   height: 50px;
