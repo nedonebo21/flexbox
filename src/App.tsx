@@ -9,8 +9,8 @@ function App() {
         <div className="App">
             <div className="flex-container">
                 <div className="myDiv">Im div</div>
-                {/*<img className="myImg" src="https://www.sitedelkino.ru/images/rasdel_css/Flexbox2.jpg" alt=""/>*/}
-                {/*<input className="myInput" type="text" placeholder='Im Input'/>*/}
+                <img className="myImg" src="https://www.sitedelkino.ru/images/rasdel_css/Flexbox2.jpg" alt=""/>
+                <input className="myInput" type="text" placeholder='Im Input'/>
                 <p className="myText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet animi, autem,
                     beatae
                     cumque dolorem dolorum enim eveniet excepturi magni non obcaecati perferendis ratione rem
