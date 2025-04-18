@@ -2,13 +2,14 @@
   height: 100vh;
   display: flex;
 
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .myDiv {
   background-color: lightcoral;
+
   flex-basis: 300px;
 }
 
