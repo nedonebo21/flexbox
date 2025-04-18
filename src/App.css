@@ -10,9 +10,11 @@
 .myDiv {
   background-color: lightcoral;
 
-  flex-basis: 300px;
+  /*flex-basis: 300px;*/
+  /*flex-grow: 1;*/
+  /*flex-shrink: 2;*/
 
-  flex-grow: 2;
+  flex: 1 2 300px;
 }
 
 .myText {
@@ -24,7 +26,6 @@
 
 .mySpan {
   background-color: rgb(135, 250, 141);
-  flex-grow: 1;
 }
 
 .myImg {
