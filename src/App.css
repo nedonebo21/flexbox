@@ -29,3 +29,24 @@
   height: 150px;
   order: 2;
 }
+
+.wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: rgb(135, 250, 141);
+
+  height: 100px;
+}
+main{
+  background-color: lightcoral;
+  flex-grow: 1;
+}
+footer{
+  background-color: lightskyblue;
+
+  height: 50px;
+}
