@@ -17,6 +17,9 @@
 .myDiv {
   background-color: lightcoral;
   width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   /*flex-basis: 300px;*/
   /*flex-grow: 1;*/
