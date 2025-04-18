@@ -9,7 +9,7 @@
 
 .myDiv {
   background-color: lightcoral;
-  height: 50px;
+  flex-basis: 300px;
 }
 
 .myText {
